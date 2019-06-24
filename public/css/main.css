@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 14px;
+  font-family: "Arial", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  height: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around; }
+  .container .left {
+    width: 250px;
+    padding: 20px 10px;
+    background-color: yellow; }
+  .container .right {
+    width: 250px;
+    padding: 20px 10px;
+    background-color: lightgreen; }
+  .container .center {
+    width: 50%;
+    background-color: silver; }
+
+.bammer_left_250_250_1 {
+  width: 250px;
+  height: 250px; }
+
+.bammer_left_250_250_2 {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  position: relative; }
+
+.bammer_250 {
+  width: 250px;
+  height: 250px;
+  margin-top: 30px;
+  background-color: green; }
