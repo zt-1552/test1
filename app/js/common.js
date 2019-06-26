@@ -1,16 +1,15 @@
 ;(function($, undefined){
 
-
-$(window).width(function() {
-  if ( $(window).width() >= 790 ) {
+$(document).ready(function () {
+  if ($(window).width() >= 790 ) {
     addSrcImage();
   }
 });
 
 $(window).resize(function() {
-  if ( $(window).width() >= 790 ) {
+  if ($(window).width() >= 790 ) {
     addSrcImage();
-  }// И теперь нужно отключить функцию слежения за шириной єкрана
+  }
 });
 
 function addSrcImage() {
